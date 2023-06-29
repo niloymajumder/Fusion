@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/login.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="./img/favicon-01.png" type="image/x-icon" />
+    <title>Login - Fusion</title>
+  </head>
+
+  <body>
+    <main>
+      <a href="https://github.com/niloymajumder/Fusion" target="_blank">
+        <img class="main-logo" src="./img/Fusion without BG-01.png" />
+      </a>
+
+      <div class="main"></div>
+
+      <form onsubmit="refresh();" class="heyBro">
+        <div class="logo">
+          <img src="./img/Fusion Icon - No BG-01.png" />
+        </div>
+
+        <div class="sign-box">
+          <p>sign in</p>
+          <p>sign up</p>
+        </div>
+
+        <span id="text"></span>
+
+        <input
+          type="email"
+          name="Umail"
+          placeholder="Email"
+          class="input-Box name"
+          id="Email"
+          required
+        />
+
+        <br />
+
+        <input
+          type="password"
+          name="Upass"
+          placeholder="Password"
+          class="input-Box pwd"
+          id="Password"
+        />
+
+        <br />
+
+        <div class="check">
+          <input type="checkbox" id="check" />
+          <label for="check" id="checkMsg">Remember me</label>
+        </div>
+        <input type="submit" value="sign in" class="input-Box submit" "/>
+
+        <p class="forgot-Pwd">forgot your password?</p>
+      </form>
+    </main>
+    
+    <!-- 
+      script section
+     -->
+
+    <script>
+      const check = document.querySelector("#check");
+      const checkMsg = document.querySelector("#checkMsg");
+
+      const name = document.querySelector(".name");
+      const psd = document.querySelector(".pwd");
+      const msg = document.querySelector("#text");
+
+      const main = document.querySelector(".main");
+
+      var a = 1;
+
+      check.addEventListener("click", () => {
+        load();
+      });
+      const load = () => {
+        if (a == 1) {
+          checkMsg.style.color = "#fff";
+          a = 0;
+        } else {
+          checkMsg.style.color = "#1db954";
+          a = 1;
+        }
+      };
+
+      load();
+
+      const refresh = () => {
+        if (name.value == "" && psd.value == "") {
+          msg.innerText = "Empty username & password";
+        } else {
+          msg.innerText = "";
+          check.checked = false;
+          load();
+        }
+      };
+    </script>
+  </body>
+</html>
