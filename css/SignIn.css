@@ -148,7 +148,7 @@ form {
 
 .forgot-Pwd {
   text-align: center;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
   color: #444;
   margin: 15px 0;
   font-size: 0.95em;
@@ -158,7 +158,7 @@ form {
 .Up p > a {
   text-decoration: none;
   text-align: center;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
   color: #444;
   margin: 15px 0;
   padding: 0px 100px;
