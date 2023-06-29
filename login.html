@@ -68,41 +68,6 @@
      -->
 
     <script>
-      const check = document.querySelector("#check");
-      const checkMsg = document.querySelector("#checkMsg");
-
-      const name = document.querySelector(".name");
-      const psd = document.querySelector(".pwd");
-      const msg = document.querySelector("#text");
-
-      const main = document.querySelector(".main");
-
-      var a = 1;
-
-      check.addEventListener("click", () => {
-        load();
-      });
-      const load = () => {
-        if (a == 1) {
-          checkMsg.style.color = "#fff";
-          a = 0;
-        } else {
-          checkMsg.style.color = "#1db954";
-          a = 1;
-        }
-      };
-
-      load();
-
-      const refresh = () => {
-        if (name.value == "" && psd.value == "") {
-          msg.innerText = "Empty username & password";
-        } else {
-          msg.innerText = "";
-          check.checked = false;
-          load();
-        }
-      };
     </script>
   </body>
 </html>
