@@ -95,13 +95,13 @@ form {
 }
 
 .check {
-  display: flex;
-  justify-content: start;
-  align-items: center;
-  gap: 10px;
+  text-align: center;
+  /* text-transform: capitalize; */
+  color: #1db954;
+  margin: 15px 0;
   font-size: 0.95em;
-  padding: 0px 20px;
-  margin: 5px 0;
+  cursor: pointer;
+  
 }
 
 .input-Box {
