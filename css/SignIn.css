@@ -155,6 +155,20 @@ form {
   cursor: pointer;
 }
 
+.terms {
+  text-align: center;
+  /* text-transform: capitalize; */
+  color: #444;
+  margin: 15px 0;
+  font-size: 0.95em;
+  cursor: pointer;
+}
+
+.terms > .color-a {
+  color: #1db954;
+  cursor: pointer;
+}
+
 .Up p > a {
   text-decoration: none;
   text-align: center;
@@ -172,4 +186,8 @@ form {
 
 .forgot-Pwd:hover {
   color: #1db954;
+}
+
+.terms:hover {
+  color: #ffffff;
 }
