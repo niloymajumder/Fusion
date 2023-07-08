@@ -23,7 +23,21 @@ body {
   align-items: center;
   min-height: 100vh;
   padding: 0px 10%;
-  background: #333333;
+  background-image: linear-gradient(
+    to right top,
+    #0f0c29,
+    #131433,
+    #19193e,
+    #1f1e49,
+    #262454,
+    #282656,
+    #2a2858,
+    #2c2a5a,
+    #2a2953,
+    #28274c,
+    #262645,
+    #24243e
+  );
   overflow: hidden;
 }
 
@@ -83,7 +97,7 @@ h3 {
 }
 
 #login-container .login {
-  background: #11111193;
+  background: #3636610e;
   color: #ffffff;
   text-align: center;
   padding: 70px;
