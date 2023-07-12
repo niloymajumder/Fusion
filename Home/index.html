@@ -24,30 +24,30 @@
       href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400&display=swap"
       rel="stylesheet"
     />
-    <link rel="shortcut icon" href="../img/favicon-01.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="./img/favicon-01.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,200&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
-    <img class="bg" src="../img/bg-2.jpg" alt="" />
     <div class="bg"></div>
     <main>
-      <a href="https://github.com/niloymajumder/Fusion" target="_blank">
-        <img class="main-logo" src="../img/Fusion without BG-01.png" />
-      </a>
-
+      <div class="hero">
+        <nav>
+          <img src="../img/Fusion without BG-01.png" class="main-logo" />
+        </nav>
+      </div>
       <div class="main">
-        <div id="content">
-          <div id="login-container">
-            <div class="login">
-              <h1>Fusion</h1>
-              <button id="login-button" class="big-btn">
-                <a href="./Login/">Login</a>
-              </button>
-              <button id="login-button" class="big-btn">
-                <a href="./signup/">Sign up</a>
-              </button>
-            </div>
-          </div>
+        <div class="content">
+          <h1><span>Fusion</span> is coming soon</h1>
+          <form>
+            <input type="email" placeholder="Email address" required />
+            <button type="submit" class="btn">Subscribe</button>
+          </form>
         </div>
       </div>
     </main>
@@ -55,5 +55,6 @@
     <!-- 
     script section
    -->
+    <script src="../js/app.js"></script>
   </body>
 </html>
