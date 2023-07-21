@@ -24,7 +24,11 @@
       href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400&display=swap"
       rel="stylesheet"
     />
-    <link rel="shortcut icon" href="../img/favicon-01.png" type="image/x-icon" />
+    <link
+      rel="shortcut icon"
+      href="../img/favicon-01.png"
+      type="image/x-icon"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -44,10 +48,17 @@
       <div class="main">
         <div class="content">
           <h1><span>Fusion</span> is coming soon</h1>
-          <form>
-            <input type="email" placeholder="Email address" required />
+
+          <form name="submit-to-google-sheet">
+            <input
+              type="email"
+              name="Email"
+              placeholder="Email address"
+              required
+            />
             <button type="submit" class="btn">Subscribe</button>
           </form>
+          <span id="Ara-Ara-msg"></span>
         </div>
       </div>
     </main>
@@ -55,6 +66,6 @@
     <!-- 
     script section
    -->
-    <script src="../js/app.js"></script>
+    <script src="./js/app.js"></script>
   </body>
 </html>

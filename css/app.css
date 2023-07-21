@@ -108,3 +108,9 @@ form .btn {
   height: 50px;
   border-radius: 31px;
 }
+
+#Ara-Ara-msg {
+  display: flex;
+  justify-content: center;
+  color: green;
+}
