@@ -39,6 +39,7 @@ body {
     #24243e
   );
   overflow: hidden;
+  background-attachment: fixed;
 }
 
 .search-bar {
