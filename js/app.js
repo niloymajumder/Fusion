@@ -1,3 +1,13 @@
+
+
+
+
+
+
+
+
+// Forms input and output section
+
 const scriptURL =
   "https://script.google.com/macros/s/AKfycbyZftqcbofl_Wmr6jPagevo-p75S8UZypcCYBB2xFSLV0yMhHsBeqsTnQvxFSRQTRhVHQ/exec";
 const form = document.forms["submit-to-google-sheet"];
