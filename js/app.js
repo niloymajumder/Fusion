@@ -1,11 +1,3 @@
-
-
-
-
-
-
-
-
 // Forms input and output section
 
 const scriptURL =
